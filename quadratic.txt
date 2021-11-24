@@ -1,0 +1,36 @@
+import Java.lang.Math;
+import java.lang.*;
+import java.util.Scanner;
+class quadratic {
+Public static void main(String args()){
+float a,b,c,d;r1,r2;
+scanner in= new Scanner(System.in);
+System.out.println("enter the copy of a;b,c");
+a=in.next float();
+b=in.next float();
+c=in.next float();
+d=(b*b)-(4*a*c);
+if(d>0)
+{          Math.
+    r1=(-b+ sqrt(d))/(2*a);
+    r2=(-b- sqrt(d))/(2*a);
+    system.out.println("root 1 is" + r1);
+    system.out.println("root 2 is" + r2);
+}
+
+else if (d==0)
+{
+    r1=(-b/(2*a); r2=r1;
+system.out.println("the roots are" + r1)
+system.out.println(r2);
+}
+else 
+{
+float real= -b/(2*a);
+float imaginary = Math.sqrt(-d/(2*a);
+
+system.out.printf("root 1= %2.f+%2.fi",real,imaginary);
+system.out.printf("root 2= %2f-%2f",real,imaginary);
+}
+}
+}
